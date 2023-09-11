@@ -76,14 +76,12 @@ button {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .flower-container {
-    display: flex;
-    flex-direction: column;
-    border-radius: 300px 300px 0px 0px;
+    width: 400px;
+    height: 530px;
 }
 
 .flower-container p {
