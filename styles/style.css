@@ -6,32 +6,112 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-header{
+header {
     background: rgba(229, 84, 115, 0.10);
 }
 
-p{
+p {
     color: #272727;
 }
 
-.header-container{
+.header-container {
     display: flex;
     justify-content: space-between;
     padding: 50px 150px;
     height: auto;
 }
 
-h1{
+h1 {
     font-size: 50px;
 }
 
-.header-container img{
+.header-container img {
     width: 400px;
     margin-top: 50px;
     margin-bottom: -53px;
 }
 
-.heading p{
+.heading p {
     margin-bottom: 30px;
 }
 
+button {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: 0;
+
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.flower-section {
+    background: #FFF;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.flower-heading {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 180px;
+}
+
+.flower-section p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.flower-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 150px;
+}
+
+.flower-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flower-container p {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.flower-img-1,
+.flower-img-2,
+.flower-img-3 {
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flower-img-1 {
+    padding: 110px 80px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-img-2 {
+    padding: 115px 45px 53px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-img-3 {
+    padding: 65px 75px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
