@@ -198,18 +198,53 @@ button {
     line-height: 30px;
 }
 
-.deal{
+.deal {
     text-align: center;
 }
-.latest-deal{
+
+.latest-deal {
+    margin: 50px 130px;
     background-image: url(../Flower-Asset/Rectangle-9.png);
+    background-size: cover;
+    width: 1200px;
 }
-.input{
+
+.latest-deal h2 {
+    padding-top: 120px;
+
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-deal p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.deal-email {
+    padding-bottom: 121px;
+}
+
+.input {
     border: none;
     border-radius: 5px;
-    height: 50px;
+    height: 70px;
     width: 500px;
 }
-.placeholder{
+
+::placeholder {
     padding-left: 20px;
+
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
 }
